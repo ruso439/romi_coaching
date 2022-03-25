@@ -1,0 +1,61 @@
+<link rel= "stylessheet">
+
+:root{
+    --color-primary: #444CF7;
+    --color-title: #000;
+    --align-title: left;
+    --padding-container: 100px 0;
+    --width-container: 90%;
+    --max-width-container: 1200px;
+    --color-btn: #444CF7;
+    --text-btn: #fff;
+    --padding-btn: 20px 35px;
+    --height-shape: 18em;
+}
+
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f7e6f4;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #f7e6f4 20%, #f7e6f4 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #f7e6f4 20%, #f7e6f4 80%, transparent 80%, transparent) 32.5px 32.5px, linear-gradient(#f745ec 2.6px, transparent 2.6px) 0 -1.3px, linear-gradient(90deg, #f745ec 2.6px, #f7e6f4 2.6px) -1.3px 0;
+    background-size: 65px 65px, 65px 65px, 32.5px 32.5px, 32.5px 32.5px;
+
+
+}
+
+.card__img{
+    width: 150px
+    background #000;
+}
+ .footer__icon{
+     width: 40px;
+     fill: #fff;
+     background: #000;
+
+}
+
+.cotainer{
+     width: var(--width-container);
+     max-width: var(--max-width-container);
+     padding: var(--padding-container);
+     margin: 0 auto;
+     overflow: hidden;
+}
+
+.hero{
+     height: 100vh;
+     min-width: 500px;
+     position: relative;
+     --padding-container: 0;
+}
+
+.hero__container{
+     display: grid;
+     height: 100%;
+     grid-template-columns: 3fr 2fr;
+     place-items: center;
+     gap: 20px;
+}
+
